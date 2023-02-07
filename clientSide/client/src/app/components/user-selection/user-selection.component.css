@@ -1,0 +1,150 @@
+.loginCard {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    background-image: url('../../../assets/images/Transparent-BG.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: end;
+}
+
+mat-card {
+    border-radius: 25px 25px 25px 25px;
+}
+
+mat-card-title {
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+mat-card-content {
+    padding: 25px;
+}
+
+.innerCard {
+    width: 50%;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.email {
+    background-color: #3d738a !important;
+    color: white !important;
+    border-radius: 25px 25px 25px 25px;
+    width: 50% !important;
+}
+
+.example-button-row {
+    width: 100% !important;
+    text-align: center;
+}
+
+.icons {
+    border: 2px solid gray;
+    border-radius: 10%;
+}
+
+.iconSubline {
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.subTitles {
+    color: rgb(85, 84, 84);
+    font-weight: 500;
+}
+
+.topHeader {
+    text-align: center;
+}
+
+.checkline {
+    color: #3d738a;
+    font-weight: 600;
+}
+
+.req {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+
+.icons:hover {
+    border: 3px solid green;
+    z-index: 3;
+}
+
+/* -------------------------------------Responsive Desktop / Mobile View---------------------------------------- */
+
+@media (min-width: 992px) {
+    .hide-mob {
+        display: block;
+    }
+
+    .show-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hide-mob {
+        display: block;
+    }
+
+    .show-mob {
+        display: none;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .hide-mob {
+        display: none;
+    }
+
+    .show-mob {
+        display: block;
+    }
+
+    .innerCard {
+        width: 100%;
+        padding: 45px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        justify-content: center;
+        background-image: url('../../../assets/images/Transparent-BG.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .loginCard {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+        background-color: url('../../../assets/images/Transparent-BG.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        align-items: center;
+    }
+
+    .imgs{
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,97 @@
+<mat-card class="loginCard align-self-center mx-auto hide-mob">
+    <div class="row col-12">
+        <div class="col-6">
+            <h1
+                style="font-family :Apple Chancery; color: rgb(77, 71, 71); margin-top: 188px; font-size: 55px; text-align: center;">
+                Welcome
+                Page</h1>
+            <h5 style="font-family :Apple Chancery; color: gray; font-size: 25px; text-align: center;">Sign in to
+                continue access page</h5>
+        </div>
+        <div class="col-6">
+            <mat-card class="innerCard outline">
+                <mat-card-title>
+                </mat-card-title>
+                <mat-card-content>
+                    <p class="pb-2 checkline">Login to QA Preneur</p>
+                    <form class="example-form mt-1">
+                        <input type="text" id="exampleForm2" class="form-control example-full-width"
+                            placeholder="Username or Email">
+                        <input type="text" id="exampleForm2" class="form-control example-full-width mt-3"
+                            placeholder="Password">
+                        <!-- <mat-form-field class="example-full-width" appearance="outline">
+                            <mat-label>Username or Email</mat-label>
+                            <input matInput value="">
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width" appearance="outline">
+                            <mat-label style="justify-content: center;  align-items: center;">Password</mat-label>
+                            <input matInput value="">
+                        </mat-form-field> -->
+
+                        <mat-checkbox class="example-margin"><span class="checkbox">Keep me logged in</span></mat-checkbox>
+
+                        <span href="" class="mt-2 checkline" style="float: right;">Forget password ?</span>
+
+                        <div class="example-button-row flex-start mt-3">
+                            <button class="email" mat-raised-button routerLink="/Choose-User">Continue with Email</button>
+                        </div>
+
+                        <mat-divider class="mt-3"></mat-divider>
+
+                        <div class="example-button-row mt-3">
+                            <button class="google" mat-raised-button>Continue with Google</button>
+                        </div>
+
+                        <h5 class="req mt-3">Don't have QA Preneur account?</h5>
+
+                        <div class="example-button-rows mt-3">
+                            <button class="signup" mat-raised-button routerLink="/signup">Signup</button>
+                        </div>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</mat-card>
+
+<mat-card class="loginCard align-self-center mx-auto show-mob">
+    <div class="row">
+        <div class="col-12">
+            <mat-card-content>
+                <p class="pb-2">Login to QA Preneur</p>
+                <form class="example-form mt-1">
+                    <input type="text" id="exampleForm2" class="form-control example-full-width"
+                        placeholder="Username or Email">
+                    <input type="text" id="exampleForm2" class="form-control example-full-width mt-3"
+                        placeholder="Password">
+                    <!-- <mat-form-field class="example-full-width" appearance="outline">
+                            <mat-label>Username or Email</mat-label>
+                            <input matInput value="">
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width" appearance="outline">
+                            <mat-label style="justify-content: center;  align-items: center;">Password</mat-label>
+                            <input matInput value="">
+                        </mat-form-field> -->
+                    <mat-checkbox class="example-margin"><span class="checkbox">Keep me logged
+                            in</span></mat-checkbox>
+                    <div class="example-button-row mt-3">
+                        <button class="email" mat-raised-button routerLink="/Choose-User">Continue with Email</button>
+                    </div>
+                    <mat-divider class="mt-3"></mat-divider>
+
+                    <div class="example-button-row mt-3">
+                        <button class="google" mat-raised-button>Continue with Google</button>
+                    </div>
+
+                    <h5 class="req mt-3">Don't have QA Preneur account ?</h5>
+
+                    <div class="example-button-rows mt-3">
+                        <button class="signup" mat-raised-button routerLink="/signup">Signup</button>
+                    </div>
+                </form>
+            </mat-card-content>
+        </div>
+    </div>
+</mat-card>

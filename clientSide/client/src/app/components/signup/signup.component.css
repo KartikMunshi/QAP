@@ -1,0 +1,189 @@
+.loginCard {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    background-image: url('../../../assets/images/Transparent-BG.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: end;
+}
+
+/* .Welcome {
+    justify-content: flex-start;
+} */
+
+mat-card {
+    border-radius: 25px 25px 25px 25px;
+}
+
+mat-card-content {
+    padding: 25px;
+}
+
+.innerCard {
+    width: 50%;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    /* margin-right: 22px; */
+    /* float: ; */
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+p {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+.example-full-width {
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+}
+
+.example-button-row {
+    width: 100% !important;
+    text-align: center;
+}
+
+.example-button-rows {
+    width: 100% !important;
+    text-align: center;
+}
+
+
+mat-raised-butto {
+    width: 100%;
+}
+
+.signup {
+    width: 50%;
+    border-radius: 25px 25px 25px 25px;
+    color: gray;
+}
+
+.email {
+    background-color: #3d738a !important;
+    color: white !important;
+    border-radius: 25px 25px 25px 25px;
+    width: 90% !important;
+}
+
+.google {
+    border-radius: 25px 25px 25px 25px;
+    width: 90% !important;
+    background-color: rgb(66 133 244) !important;
+    color: white !important;
+}
+
+.req {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+
+.checkbox {
+    color: gray;
+    font-size: 12px;
+}
+
+.checkline{
+    color: #3d738a;
+    font-weight: 500;
+}
+
+.outline {
+    border-style: 1px solid black !important;
+    border-width: medium;
+    border-spacing: 10px;
+}
+
+
+
+/* -------------------------------------Responsive Desktop / Mobile View---------------------------------------- */
+
+@media (min-width: 992px) {
+    .hide-mob {
+        display: block;
+    }
+
+    .show-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hide-mob {
+        display: block;
+    }
+
+    .show-mob {
+        display: none;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .hide-mob {
+        display: none;
+    }
+
+    .show-mob {
+        display: block;
+    }
+
+    .innerCard {
+        width: 100%;
+        padding: 45px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        justify-content: center;
+        background-image: url('../../../assets/images/Transparent-BG.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+    }
+
+    .loginCard {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+        background-color: url('../../../assets/images/Transparent-BG.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Helvetica';
+        font-size: 26px;
+        color: #3d738a;
+    }
+
+    .outline {
+        border-style: 1px solid rgb(255, 0, 0) !important;
+        border-width: thin;
+        border-spacing: 1px;
+    }
+}
